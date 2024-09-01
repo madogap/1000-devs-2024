@@ -1,0 +1,5 @@
+Tipos de Interfaces de Sistemas
+https://docs.google.com/presentation/d/1wFZrD7zdeY58SjFhjEfHc4m2jTp3sDe82dC5maO74Pk/edit#slide=id.p
+
+Variáveis, Constantes, Entrada e Saída de Dados, Operadores Aritméticos:
+https://docs.google.com/presentation/d/1Q4WUCIpwHOoN2W_v7wwzGpJBl_PaV_QZFhPO_WScWTY/edit

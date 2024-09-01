@@ -1,0 +1,28 @@
+O que é Algoritmo?
+https://www.youtube.com/watch?v=iEVLDKOLgQk
+Conceito geral Linguagem de Programação
+https://www.youtube.com/watch?v=pYux8zKyVX4
+Vídeo de Referência: Variáveis em Java
+https://www.youtube.com/watch?v=qAgzr8Fo6LM&t=3s
+Vídeo de Referência: Tipos de Dados em Java
+https://www.youtube.com/watch?v=aqiB58NpKLw
+Vídeo de Referência: Lendo dados do teclado
+https://www.youtube.com/watch?v=Z6Y8zupCKfk
+
+Servidor: No sentido de Hardware
+- Neste vídeo, temos uma explicação de quais características temos em um servidor.
+
+- Note no vídeo a explicação dos seguintes termos: Redundância (Processador, Fonte de Energia, Placa de Rede e Disco); HotSwap 
+
+- Este tipo de equipamento é utilizando quando se precisa garantir um nível de capacidade de processamento, para conseguir atender a milhares de centenas de usuárias conectados simultaneamente, realizando requsições de algum tipo de conteúdo que esteja, "hospedado", ou no português armazenado neste computador.
+
+- No entanto em ambientes pequenos com poucos usuários, apenas algumas dezenas de usuários, é possível utilizar computadores desktop normais para atuarem como servidores, caso a empresa não tenha condições financeiras de comprar um servidor que tenha as características comentadas no vídeo. 
+https://www.youtube.com/watch?v=2xkSkgOw6I8
+
+Arquitetura: Cliente e Servidor
+https://www.youtube.com/watch?v=GvxbumOnrmM
+
+
+Link do Encontro Gravado
+https://youtu.be/TMagqwSuKuk
+

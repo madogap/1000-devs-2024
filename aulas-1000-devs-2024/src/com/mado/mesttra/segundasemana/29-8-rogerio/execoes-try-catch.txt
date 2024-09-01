@@ -1,0 +1,60 @@
+Tratamento de Exeções com Try Catch
+
+
+No Java, o tratamento de exceções é uma maneira de lidar com erros que podem acontecer enquanto um programa está sendo executado. Erros são eventos inesperados que podem parar o programa de funcionar corretamente. Para evitar que o programa quebre quando um erro ocorre, usamos o "tratamento de exceções" com as palavras-chave try e catch.
+
+Aqui está uma explicação básica de como isso funciona:
+
+1. O que é uma Exceção?
+Uma exceção é como um sinal de alerta que indica que algo deu errado. Por exemplo, pode ser um erro ao tentar abrir um arquivo que não existe ou ao dividir um número por zero. Quando um erro desse tipo acontece, o Java gera uma exceção.
+
+2. O Bloco try
+O bloco try é onde você coloca o código que pode gerar uma exceção. É como se você estivesse dizendo: "Eu vou tentar executar este código, mas ele pode causar um erro."
+
+
+
+try {
+    // Código que pode gerar uma exceção
+    int resultado = 10 / 0; // Isso vai gerar uma exceção
+}
+3. O Bloco catch
+Se uma exceção ocorrer dentro do bloco try, o bloco catch é executado. É como se você estivesse dizendo: "Se acontecer um erro aqui, faça isso para lidar com o problema."
+
+
+
+try {
+    int resultado = 10 / 0; // Isso vai gerar uma exceção
+} catch (ArithmeticException e) {
+    // Código para lidar com a exceção
+    System.out.println("Erro: Não é possível dividir por zero.");
+}
+4. Exemplo Completo
+Vamos ver um exemplo completo para entender melhor:
+
+//importando a biblioteca de codigo que trata os problemas de 
+//execoes em calculos aritmeticos
+import java.lang.ArithmeticException; 
+
+public class Main{
+    public static void main(String[] args) {
+        try {
+            // Tentamos fazer uma divisão
+            int resultado = 10 / 0; // Isso gera uma exceção
+        } catch (ArithmeticException e) {
+            // Se ocorrer uma exceção, isso é executado
+            System.out.println("Erro: Não é possível dividir por zero.");
+        }
+
+        System.out.println("O programa continua executando...");
+    }
+}
+O que Acontece no Código?
+O código dentro do bloco try tenta fazer a divisão.
+Como dividir por zero não é permitido, o Java gera uma exceção ArithmeticException.
+O bloco catch captura essa exceção e executa o código para lidar com o erro, mostrando uma mensagem para o usuário.
+O programa continua executando normalmente após o bloco catch.
+Por que Usar try e catch?
+Usar try e catch ajuda a tornar seu programa mais robusto e evita que ele quebre quando encontrar problemas. Em vez de parar, o programa pode lidar com o erro e continuar funcionando, o que melhora a experiência do usuário.
+
+
+Indentação

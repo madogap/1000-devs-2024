@@ -1,0 +1,19 @@
+Link do Encontro Gravado
+
+
+https://us02web.zoom.us/rec/share/P5d1dFek1zZh89TkuKPPsNYvPYTvpDrnufukn0z4Ew-y3nb2mY9pwZiaY8D2B1y9._Adbl-2bYfMaZhOS
+
+limpeza buffer
+https://www.youtube.com/watch?v=GVhqeZcVGTk
+
+try catch e indentação
+https://www.youtube.com/watch?v=i9r3Sm23RLM
+
+Como utilizar o Scanner (teclado)
+https://youtu.be/JyrKws75wEE
+
+Diferença entre next() e nextLine()
+https://youtu.be/nag6K55rS3I
+
+Formatando Casas Decimais
+https://www.youtube.com/watch?v=QrEYtDnvDoY
