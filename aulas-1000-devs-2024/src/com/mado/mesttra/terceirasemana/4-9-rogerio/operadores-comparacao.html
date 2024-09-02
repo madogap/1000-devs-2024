@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operadores comparação</title>
+</head>
+<body>
+    Operadores de Comparação
+   
+
+Os operadores relacionais ou de comparação, avaliam dois operandos. Neste caso, mais precisamente, definem se o operando à esquerda é menor, menor ou igual, maior ou maior ou igual ao da direita, igual ou diferente retornando um valor booleano (verdadeiro ou falso).
+
+
+
+ ==
+Utilizado quando desejamos verificar se uma variável é igual a outra.
+ !=
+Utilizado quando desejamos verificar se uma variável é diferente de outra.
+ >
+Utilizado quando desejamos verificar se uma variável é maior que outra.
+ >=
+Utilizado quando desejamos verificar se uma variável é maior ou igual a outra.
+ <
+Utilizado quando desejamos verificar se uma variável é menor que outra.
+ <=
+Utilizado quando desejamos verificar se uma variável é menor ou igual a outra.
+
+
+<pre>
+    <code>
+        public class Main{
+            public static void main(String[] args) {
+                boolean resultado;
+                int a;
+                int b;
+                
+                a = 10;
+                b = 10;
+                
+                resultado = (a > b);
+                System.out.println("Resultado: " + resultado); //Resultado: false
+                
+                resultado = (a >= b);
+                System.out.println("Resultado: " + resultado); //Resultado: true
+                
+                resultado = (a < b);
+                System.out.println("Resultado: " + resultado); //Resultado: false
+                
+                resultado = (a <= b);
+                System.out.println("Resultado: " + resultado); //Resultado: true
+                
+                resultado = (a == b);
+                System.out.println("Resultado: " + resultado); //Resultado: true
+                
+                resultado = (a != b);
+                System.out.println("Resultado: " + resultado); //Resultado: false
+                
+            }
+        }
+        
+
+
+
+    </code>
+</pre>
+
+
+
+</body>
+</html>
