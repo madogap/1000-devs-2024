@@ -1,0 +1,125 @@
+este 3: Escrevendo expressões lógicas
+Pontuação
+71,43 %
+Parabéns!
+Você concluiu este teste em 06/09/2024 às 19:19
+Aprovado
+
+Imprimir
+Considerando as variáveis ​​abaixo qual é a expressão lógica equivalente à frase:
+
+
+
+TenhoOvos e tenhoFarinha e fornoLigado
+
+
+
+boolean tenhoOvos;
+
+boolean tenhoFarinha;
+
+boolean forno desligado;
+
+
+
+(tenhoOvos && tenhoFarinha && forno desligado)
+(tenhoOvos && tenhoFarinha || forno desligado)
+(tenhoOvos || tenhoFarinha && forno desligado)
+(tenhoOvos && tenhoFarinha && ! forno desligado)
+Considerando as variáveis ​​abaixo qual é a expressão lógica equivalente à frase:
+
+
+
+TenhoOvos ou o precoOvo que faltam para completar 5 é menor que o dinheiro que tenho.
+
+
+
+boolean tenhoOvos;
+
+int qtdeOvosQueTenho;
+
+float precoOvo = 1,20;
+
+TenhoOvos || (((5 - qtdeOvosQueTenho) * precoOvo) < dinheiroQueTenho)
+TenhoOvos || (((5 - precoOvo) * QtdeOvosQueTenho) < dinheiroQueTenho)
+TenhoOvos || ((5 - precoOvo) < dinheiroQueTenho)
+TenhoOvos || ((5 - QtdeOvosQueTenho) < dinheiroQueTenho)
+Considerando as variáveis ​​abaixo qual é a expressão lógica equivalente à frase:
+
+
+
+notaFinalAluno é maior ou igual a 60 e percentualFaltas é menor a 20%
+
+
+
+float notaFinalAluno;
+
+float percentualFaltas;
+
+notaFinalAluno >= 60 && percentualFaltas <= 0,2
+(notaFinalAluno >= 60) && (percentualFaltas < 0,2)
+notaFinalAluno >= 60 || percentual Faltas < 0,2
+notaFinalAluno >= 60 || percentualFaltas <= 20
+Considerando as variáveis ​​abaixo qual é a expressão lógica equivalente à frase:
+
+
+
+notaFinalAluno está entre 30 (inclusive) e 60 (não incluso) e percentualFaltas é menor a 20%
+
+
+
+float notaFinalAluno;
+
+float percentualFaltas;
+
+notaFinalAluno >= 30 && < 60 && percentualFaltas < 0,2
+notaFinalAluno >= 30 && notaFinalAluno < 60 && percentualFaltas < 0,2
+notaFinalAluno >= 30 && notaFinalAluno < 60 && percentualFaltas < 20%
+notaFinalAluno >= 30 && notaFinalAluno <= 60 && percentualFaltas < 0,2
+Considerando as variáveis ​​abaixo qual é a expressão lógica equivalente à frase:
+
+
+
+x é maior ou igual a 90 ex é menor ou igual a 100 
+
+
+
+int x;
+
+(x <= 100) && (x >= 90)
+(x >= 100) && (x >= 90)
+(x >= 100) || (x >= 90)
+(x <= 100) || (x >= 90)
+Considerando as variáveis ​​abaixo qual é a expressão lógica equivalente à frase:
+
+
+
+x não é igual a 90
+
+
+
+
+
+int x;
+
+
+
+x != 90
+! x == 90
+x == !90
+!x == !90
+Considerando as variáveis ​​abaixo qual é a expressão lógica equivalente à frase:
+
+x é igual a 90 e é menor que 12
+
+
+
+int x;
+
+int e;
+
+(x == 90) e (y < 12)
+(x == 90) e (y <= 12)
+(x == 90) || (y <= 12)
+(x == 90) || !(y <= 12)
+

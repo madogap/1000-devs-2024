@@ -1,0 +1,48 @@
+Considere as variáveis ​​abaixo:
+
+int aa = 30;
+int bb = 10;
+
+float meuDinheiro = 450.20;
+
+boolean estaChovendo = true;
+boolean temPassagem = true;
+
+Com base no valor destas variáveis ​​responda os resultados das expressões a seguir:
+
+
+
+//a soma de aa e bb é maior que quarenta
+(a + b) < 40
+
+//quarenta é maior que a soma de aa e bb
+40 > (a + b)
+
+//a soma de aa e bb é menor ou igual a quarenta
+(a + b) <= 40
+
+//aa menos cinco é igual a vinte e cinco
+(a - 5) == 25
+
+//bb é diferente de essaseis
+b != 16
+
+//bb é diferente de quinze
+b != 15
+
+//aa é maior que quarenta e também aa é menor que oitenta
+(a > 40) && (a < 80)
+
+//a subtração de aa menos bb multiplicado por dois é menor que sessenta ou a soma de bb mais 2 é diferente de quinze
+(((a - b) * 2) > 60) || ((b + 2) != 17)
+
+//viajo para a praia se não estiver chovendo e se existir passagem para vender e meu dinheiro seja suficiente para pagar a passagem que é 380
+!estaChovendo && temPassagem && (meuDinheiro >= 380)
+
+
+Agora a partir da frase dada escreva as equações lógicas que as representam ainda utilizando o conteúdo das variáveis ​​anteriores:
+
+//10% de aa é menor que 0,8% de bb
+
+//Viajo se estiver de sol ou nublado e tenha no mínimo mil reais
+

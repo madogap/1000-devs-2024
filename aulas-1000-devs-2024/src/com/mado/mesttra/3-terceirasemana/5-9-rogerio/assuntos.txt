@@ -1,0 +1,10 @@
+operadores aritméticos
+Operadoes lógicos 
+
+
+Curso de Java #09 - Estruturas Condicionais (Parte 1)
+https://www.youtube.com/watch?v=wW3eve4vTMc&t=1s
+
+Estruturas de Decisão if-else - parte 2
+https://www.youtube.com/watch?v=KJYSXTYgL_o
+

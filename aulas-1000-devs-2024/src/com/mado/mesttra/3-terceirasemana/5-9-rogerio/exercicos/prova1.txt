@@ -1,0 +1,113 @@
+Teste 1: Interpretando equações lógicas
+Pontuação
+100 %
+Parabéns!
+Você concluiu este teste em 06/09/2024 às 18:43
+Aprovado
+
+Imprimir
+A expressão x > y deve ser interpretada no português como: 
+
+
+
+x é maior que y?
+x é maior ou igual ay?
+x é menor que y?
+x é menor ou igual ay?
+x é igual ay?
+x é diferente de y?
+A expressão (x + y) > (z + 1) deve ser interpretada no português como:
+
+x mais y é maior que z mais 1?
+x mais y é maior ou igual a z mais 1?
+x mais y é menor que z mais 1?
+x mais y é menor ou igual a z mais 1?
+x mais e é igual a z mais 1?
+x mais e é diferente de z mais 1?
+Junte a interpretação compatível com sua respectiva expressão lógica:
+
+negação de arroz ou negação de feijão
+(!arroz || !feijão)
+(água || refrigerante)
+água ou refrigerante
+arroz e feijao
+(arroz && feijão)
+negação do resultado de arroz e feijão
+!(arroz && feijão)
+negacao de arroz ou feijao
+(!arroz || feijao)
+!resultado
+negação do conteúdo de resultado
+A expressão x < y deve ser interpretada no português como:
+
+x é maior que y?
+x é maior ou igual ay?
+x é menor que y?
+x é menor ou igual ay?
+x é igual ay?
+x é diferente de y?
+A expressão x <= 8 deve ser interpretada no português como:
+
+x é maior que 8?
+x é maior ou igual a 8?
+x é menor que 8?
+x é menor ou igual a 8?
+x é igual a 8?
+x é diferente de 8?
+A expressão x == e deve ser interpretada no português como:
+
+x é maior que y?
+x é maior ou igual ay?
+x é menor que por?
+x é menor ou igual ay?
+x é igual ay?
+x é diferente de y?
+A expressão (x / y) < 1.5 deve ser interpretada no português como:
+
+A divisão de x por y é maior que 1,5?
+A divisão de x por y é maior ou igual a 1,5?
+A divisão de x por y é menor que 1,5?
+A divisão de x por y é menor ou igual a 1,5?
+A divisão de x por y é igual a 1,5?
+A divisão de x por y é diferente de 1,5?
+A expressão x != y deve ser interpretada no português como:
+
+x é maior que y?
+x é maior ou igual ay?
+x é menor que y?
+x é menor ou igual ay?
+x é igual ay?
+x é diferente de y?
+A expressão x >= 10 deve ser interpretada no português como:
+
+x é maior que 10?
+x é maior ou igual a 10?
+x é menor que 10?
+x é menor ou igual a 10?
+x é igual a 10?
+x é diferente de 10?
+A expressão (x - y) == 2 deve ser interpretada no português como:
+
+x menos e é maior que 2?
+x menos y é maior ou igual a 2?
+x menos e é menor que 2?
+x menos y é menor ou igual a 2?
+x menos e é igual a 2?
+x menos e é diferente de 2?
+A expressão (x * y) == 80 deve ser interpretada no português como:
+
+x multiplicado por y é maior que 80??
+x multiplicado por y é maior ou igual a 80?
+x multiplicado por y é menor que 80?
+x multiplicado por y é menor ou igual a 80?
+x multiplicado por y igual a 80?
+x multiplicado por y é diferente de 80?
+A expressão (x + y) > z deve ser interpretada no português como:
+
+x mais e é maior que z?
+x mais y é maior ou igual az?
+x mais e é menor que z?
+x mais y é menor ou igual az?
+x mais e é igual a az?
+x mais e é diferente de z?
+

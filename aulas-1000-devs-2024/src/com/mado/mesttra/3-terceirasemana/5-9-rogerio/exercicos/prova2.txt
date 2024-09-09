@@ -1,0 +1,115 @@
+Teste 2: Resolvendo equações lógicas
+Pontuação
+100 %
+Parabéns!
+Você concluiu este teste em 06/09/2024 às 19:00
+Aprovado
+
+Imprimir
+Considerando o conteúdo das variáveis ​​abaixo qual é o resultado da expressão lógica (x < y)
+
+
+
+int x = 9;
+
+int y = 20;
+
+Verdadeiro (Verdadeiro)
+Falso (Falso)
+Considerando o conteúdo das variáveis ​​abaixo qual é o resultado da expressão lógica ((x + 11) < y)
+
+
+
+int x = 9; 
+
+int y = 20;
+
+Verdadeiro (Verdadeiro)
+Falso (Falso)
+Considerando o conteúdo das variáveis ​​abaixo qual é o resultado da expressão lógica ((x + 11) <= y)
+
+
+
+int x = 9; 
+
+int y = 20;
+
+Verdadeiro (Verdadeiro)
+Falso (Falso)
+Considerando o conteúdo das variáveis ​​abaixo qual é o resultado da expressão lógica ((x + 11) < y) || ((x + 11) == y)
+
+
+
+int x = 9; 
+
+int y = 20;
+
+Verdadeiro (Verdadeiro)
+Falso (Falso)
+Considerando o conteúdo das variáveis ​​abaixo qual é o resultado da expressão lógica ((x + 11) != (y + 2)) 
+
+
+
+int x = 9; 
+
+int y = 20;
+
+Verdadeiro (Verdadeiro)
+Falso (Falso)
+Considerando o conteúdo das variáveis ​​abaixo qual é o resultado da expressão lógica ((x + 11) != (y + 2)) || (x <10)
+
+
+
+int x = 9;
+
+int y = 20;
+
+Verdadeiro (Verdadeiro)
+Falso (Falso)
+Considerando o conteúdo das variáveis ​​abaixo qual é o resultado da expressão lógica (estaSol || estaNublado)
+
+
+
+boolean estaSol = verdadeiro;
+
+boolean estaNublado = false;
+
+Verdadeiro (Verdadeiro)
+Falso (Falso)
+Considerando o conteúdo das variáveis ​​abaixo qual é o resultado da expressão lógica (estaSol && estaFrio)
+
+
+
+boolean estaSol = verdadeiro;
+
+boolean estaFrio = false;
+
+Verdadeiro (Verdadeiro)
+Falso (Falso)
+Considerando o conteúdo das variáveis ​​abaixo qual é o resultado da expressão lógica (estaFrio && estaNublado && tenhoChocolateQuente)
+
+
+
+boolean estaFrio = true;
+
+boolean estaNublado = false;
+
+boolean tenhoChocolateQuente = true
+
+Verdadeiro (Veradeiro)
+Falso (Falso)
+Considerando o conteúdo das variáveis ​​abaixo qual é o resultado da expressão lógica (estaFrio && estaNublado && (tenhoChocolateQuente || meuDinheiro >= 35.60))
+
+
+
+boolean estaFrio = true;
+
+boolean estaNublado = true;
+
+boolean tenhoChocolateQuente = false
+
+float meuDinheiro = 40.55;
+
+Verdadeiro (Verdadeiro)
+Falso (Falso)
+
