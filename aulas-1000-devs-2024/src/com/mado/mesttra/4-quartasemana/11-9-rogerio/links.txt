@@ -1,0 +1,89 @@
+https://us02web.zoom.us/rec/share/HRJuWWlmiYddYHXs0ayYQVoC1zFUfMuRli7WDpX7O2JJfBcbnxUZqbqDaot7s30C.t2GtdTS6CqD3QJsb
+
+
+Vídeos Sobre Estruturas de Decisão
+
+
+Todos os vídeos a seguir são vídeos gravados sobre a parte de lógica de programação de estruturas de decisão.
+
+A linguagem utilizada nestes vídeo foi o portugol. Mas mesmo sendo o portugol o importante é a explicação dos conceitos.
+
+Vocês verão que converter o código de portugol para java não é muito complexo. Então recomendo fortemente que os iniciantes assistam todos os vídeos para as próximas aulas. Abraço.
+
+
+
+Explicação básica sobre Estrutura de Decisão
+
+https://www.youtube.com/watch?v=8LdC_QCR4zQ
+
+
+
+Estrutura Simples if
+
+https://www.youtube.com/watch?v=STCz-GZJVUo
+
+
+
+Exercícios Estruturas Simples
+
+https://www.youtube.com/watch?v=rvUjgqmxAfQ
+
+https://www.youtube.com/watch?v=7lymbKJPC2M
+
+https://www.youtube.com/watch?v=4bipPexfxqQ
+
+https://www.youtube.com/watch?v=JhBPwyt-Jng
+
+https://www.youtube.com/watch?v=kWr1Ga-t8ec
+
+https://www.youtube.com/watch?v=6HApz7MoqJU
+
+https://www.youtube.com/watch?v=BsOzmJHp9wM
+
+
+
+Estrutura if else
+
+https://www.youtube.com/watch?v=SgQD1Snq5ZA
+
+
+
+Estrutura if else if
+
+https://www.youtube.com/watch?v=gXoXKcr10-k
+
+https://www.youtube.com/watch?v=w-SQfNzGpqM
+
+https://www.youtube.com/watch?v=5kQnkI-j4HE
+
+https://www.youtube.com/watch?v=h_dSbw4xzrY
+
+
+
+Estrutura switch case
+
+https://youtu.be/qpVhC6vjmqk
+
+
+
+Exercícios de Estrututura de Decisão Composta
+
+https://www.youtube.com/watch?v=9KKFwX1a4VY
+
+https://www.youtube.com/watch?v=w7EZ70KCylE
+
+https://www.youtube.com/watch?v=32hpxLymA4Q
+
+https://www.youtube.com/watch?v=JxUz3Pclfko
+
+https://www.youtube.com/watch?v=ArN5dYH7C2k
+
+https://www.youtube.com/watch?v=Y8A034ssJ7o
+
+https://www.youtube.com/watch?v=Insnh0vOlqM
+
+https://www.youtube.com/watch?v=5Jt9cFLTOcg
+
+https://www.youtube.com/watch?v=Q_3-c2nYgjw
+
+https://www.youtube.com/watch?v=AkC9Zk-VX50
