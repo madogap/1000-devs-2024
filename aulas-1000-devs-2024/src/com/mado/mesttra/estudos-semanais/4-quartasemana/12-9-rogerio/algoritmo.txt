@@ -1,0 +1,174 @@
+Algoritmos Produzidos no Encontro
+
+
+Verificador de Idade para Habilitação:  Escreva um programa que peça ao usuário sua idade e verifique se ele pode obter uma carteira de habilitação. As regras são: a idade mínima é 18 anos. Exiba uma mensagem diminuindo se o usuário puder ou não obter a habilitação.
+
+importar java.util.Scanner;
+classe pública App {
+    público estático vazio main(String[] args) {
+        Scanner teclado = new Scanner(System.in);
+        int idade;
+            
+        System.out.print("Digite sua idade: ");
+        idade = teclado.nextInt();
+
+        se (idade >= 18) {
+            System.out.println("A sua idade " + idade + " já está apta a tirar a habilitação: ");
+        }
+
+        teclado.close();
+    }
+}
+
+
+
+Cálculo de Desconto em Compra: Implemente um programa que calcula o desconto em uma compra com base no valor total. Se o valor total for maior que R$ 100,00 reais, aplique um desconto de 10%. Solicite o valor da compra e informe o valor final com o desconto aplicado se for o caso.
+
+importar java.util.Scanner;
+classe pública App {
+    público estático vazio main(String[] args) {
+        Scanner teclado = new Scanner(System.in);
+        float valorCompra;
+        float desconto = 0;
+                    
+        System.out.print("Digite o valor da compra: ");
+        valorCompra = teclado.nextFloat();
+
+        se (valorCompra > 100) {
+            desconto = valorCompra * 0,1f;
+        }
+
+        System.out.println("O valor da compra é R$ " + (valorCompra - desconto) );
+
+        teclado.close();
+    }
+}
+
+
+
+Cálculo de Desconto em Compra: Implemente um programa que calcula o desconto em uma compra com base no valor total. Se o valor total for maior que R$ 100,00 reais, aplique um desconto de 10%. Solicite o valor da compra e informe o valor final com o desconto aplicado se for o caso.
+
+importar java.util.Scanner;
+classe pública App {
+    público estático vazio main(String[] args) {
+        Scanner teclado = new Scanner(System.in);
+        float valorCompra;
+              
+        System.out.print("Digite o valor da compra: ");
+        valorCompra = teclado.nextFloat();
+
+        se (valorCompra > 100) {
+            valorCompra = (valorCompra * 0.9f);
+            //nesta abordagem perdemos o valor inicial que foi digitado pelo usuário
+            //se você não precisa de código do valor inicial, não tem problema
+        }
+        
+        System.out.println("O valor inicial é R$ " + (valorCompra ) );
+
+        teclado.close();
+    }
+}
+
+
+Medidor de Temperatura: Desenvolva um algoritmo que leia uma temperatura e exiba uma informação informando se uma pessoa está com febre caso a temperatura informada seja superior a 38 graus,0%.
+
+importar java.util.Scanner;
+classe pública App {
+    público estático vazio main(String[] args) {
+        Scanner teclado = new Scanner(System.in);
+        flutuar temperatura;
+
+        System.out.print("Digite o valor da temperatura em ºC: ");
+        temperatura = teclado.nextFloat();
+
+        se (temperatura > 38) {
+            System.out.println("A pessoa está com febre!");    
+        }
+
+        teclado.close();
+    }
+}
+
+
+Radar de Velocidade:  Desenvolva um algoritmo que permite ler a velocidade de um veículo e uma velocidade máxima. Exiba uma mensagem informando se o veículo excedeu 7% da velocidade máxima.
+
+importar java.util.Scanner;
+classe pública App {
+    público estático vazio main(String[] args) {
+        Scanner teclado = new Scanner(System.in);
+        velocidade de flutuação;
+        velocidade de flutuação Máxima;
+        velocidade de flutuação Limite;
+        boolean excesso de velocidade;
+
+        System.out.print("Digite a velocidade máxima em km/h: ");
+        velocidadeMaxima = teclado.nextFloat();
+
+        System.out.print("Digite a velocidade medida em km/h: ");
+        velocidade = teclado.nextFloat();
+
+
+        //outra possibilidade velocidadeLimite = ((velocidadeMaxima * 0.07f) + velocidadeMaxima);
+        velocidadeLimite = (velocidade Máxima * 1.07f);
+        excederuVelocidade = (velocidade > velocidadeLimite);
+        
+        se (excedeuVelocidade) {
+            System.out.println("O veículo excedeu a velocidade máxima!");    
+        }
+
+        teclado.close();
+    }
+}
+
+
+
+Radar de Velocidade:  Desenvolva um algoritmo que permite ler a velocidade de um veículo e uma velocidade máxima. Exiba uma mensagem informando se o veículo excedeu 7% da velocidade máxima.
+
+importar java.util.Scanner;
+classe pública App {
+    público estático vazio main(String[] args) {
+        Scanner teclado = new Scanner(System.in);
+        velocidade de flutuação;
+        velocidade de flutuação Máxima;
+
+        System.out.print("Digite a velocidade máxima em km/h: ");
+        velocidadeMaxima = teclado.nextFloat();
+
+        System.out.print("Digite a velocidade medida em km/h: ");
+        velocidade = teclado.nextFloat();
+
+        if (velocidade > (velocidade Máxima * 1.07f)) {
+            System.out.println("O veículo excedeu a velocidade máxima!");    
+        }
+
+        teclado.close();
+    }
+}
+
+
+Cálculo de Frete de Entrega:  Crie um programa que calcula o custo de frete com base no peso de um pacote. Se o peso for até 5 kg, o custo é de R$ 20,00. Se o peso for maior que 5 kg o custo é de R$ 50,00. Obtenha o valor do produto e o peso. Exiba o valor final que é a soma do valor do frete mais o valor do produto.
+
+importar java.util.Scanner;
+classe pública App {
+    público estático vazio main(String[] args) {
+        Scanner teclado = new Scanner(System.in);
+        float valorProduto, peso, frete;
+
+        System.out.print("Valor do produto R$: ");
+        valorProduto = teclado.nextFloat();
+
+        System.out.print("Digite o peso em KG: ");
+        peso = teclado.nextFloat();
+
+        se (peso <= 5) {
+            frete = 20.0f;  
+        } outro {
+            frete = 50.0f;
+        }
+
+        System.out.println("\nValor do produto: R$ " + valorProduto);
+        System.out.println("Valor frete: R$ " + frete);
+        System.out.println("Valor final: R$ " + (frete + valorProduto));
+        teclado.close();
+    }
+}

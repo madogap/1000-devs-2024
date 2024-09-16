@@ -35,6 +35,17 @@ nav a:hover {
     background-color: #28a745;
 }
 
+a:link, a:visited {
+
+  
+ 
+    
+    text-decoration: none;
+    display: flex;
+  }
+
+
+
 main {
     padding: 1rem;
     max-width: 900px;
