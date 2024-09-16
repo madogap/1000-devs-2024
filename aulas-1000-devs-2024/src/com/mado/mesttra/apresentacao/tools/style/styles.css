@@ -4,6 +4,10 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f8f9fa;
+    background-image: url('../style/img/01.jpg'); /* Define a imagem de fundo */
+    background-size: cover; /* Faz com que a imagem cubra toda a área do fundo */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Evita que a imagem se repita */
 }
 
 header {
@@ -13,9 +17,15 @@ header {
     text-align: center;
 }
 
+container-navbar{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
 nav {
     background-color: #343a40;
-    padding: 1rem;
+    padding: 1.5rem;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -36,12 +46,9 @@ nav a:hover {
 }
 
 a:link, a:visited {
-
-  
- 
-    
+   
     text-decoration: none;
-    display: flex;
+   
   }
 
 
@@ -98,6 +105,19 @@ section.active-section .click-message {
 
 /* Estilos responsivos */
 @media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    nav a {
+        margin: 0.5rem 0;
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media (max-width: 800px) {
     nav {
         flex-direction: column;
         align-items: center;
