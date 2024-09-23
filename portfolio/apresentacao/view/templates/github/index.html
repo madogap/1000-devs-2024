@@ -8,5 +8,21 @@
 </head>
 <body>
     <h1>GitHub</h1>
+    1. Comandos Básicos do Git
+git init: Inicializa um novo repositório Git em um diretório.
+git status: Mostra o estado atual do repositório, incluindo arquivos modificados e prontos para serem commitados.
+git add [arquivo]: Adiciona um arquivo específico à área de preparação (staging area), preparando-o para o commit.
+git commit -m "mensagem": Realiza um commit dos arquivos na área de preparação com uma mensagem descritiva.
+git log: Exibe o histórico de commits do repositório.
+2. Criação de Repositórios e Conexão com o GitHub
+git clone [URL]: Clona um repositório remoto (como o GitHub) para o seu ambiente local.
+git remote add origin [URL]: Conecta um repositório local a um repositório remoto no GitHub, permitindo enviar (push) e receber (pull) alterações.
+git push -u origin master: Envia os commits do branch local "master" para o repositório remoto.
+3. Push, Pull e Fetch
+git push: Envia as alterações locais (commits) para o repositório remoto.
+git pull: Atualiza o repositório local com as mudanças do repositório remoto (realiza um fetch e merge em uma única operação).
+git fetch: Baixa as alterações do repositório remoto sem mesclá-las ao seu branch atual. Permite revisar antes de aplicar as mudanças.
+4. Sincronização de Repositórios
+A sincronização entre o repositório local e o remoto é realizada principalmente com os comandos push, pull e fetch. Esses comandos garantem que as mudanças feitas localmente ou remotamente sejam compartilhadas e integradas de forma coordenada, mantendo o histórico de commits atualizado entre diferentes colaboradores.
 </body>
 </html>

@@ -1,4 +1,7 @@
 Programa de fatores dos números de 2 a 100;
 
-No programa o laç externo executa i de 2 a 100. O laço interno testa sucessivamente todos os números de 2 a i, exibindo aqueles cuja divisão por i exata adicional: o programa anterior pode ser mais eficiente. 
+No programa o laç externo executa i de 2 a 100. 
+O laço interno testa sucessivamente todos os números de 
+2 a i, exibindo aqueles cuja divisão por i exata adicional: 
+o programa anterior pode ser mais eficiente. 
 O número de iterações do laço interno pode ser reduzido

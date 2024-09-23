@@ -1,12 +1,144 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../styles-templates/styles-templates.css"> 
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../styles-templates/styles-templates.css" />
     <title>Orientação Objeto</title>
-</head>
-<body>
+  </head>
+  <body>
     <h1>Orientação Objeto</h1>
-</body>
+    1. Conceitos Fundamentais e Pilares da POO Programação Orientada a Objetos
+    (POO): Paradigma de programação baseado na criação de "objetos" que
+    representam entidades do mundo real, que têm atributos (dados) e
+    comportamentos (métodos). Pilares da POO: Encapsulamento: Protege os dados
+    internos de um objeto, permitindo acesso apenas por meio de métodos
+    públicos. Herança: Permite que uma classe herde propriedades e
+    comportamentos de outra, promovendo a reutilização de código. Polimorfismo:
+    Habilidade de diferentes classes implementarem o mesmo método de formas
+    variadas, permitindo que métodos com o mesmo nome possam ter comportamentos
+    distintos. Abstração: Foca em expor apenas os detalhes essenciais de um
+    objeto, ocultando a complexidade desnecessária. 2. Definição de Classes e
+    Objetos Classe: Modelo ou "molde" para a criação de objetos. Define os
+    atributos e métodos que os objetos criados a partir dela terão. Exemplo em
+    Java: java 
+    <p></p>
+    <pre>
+    <code>
+
+        class Carro {
+            String modelo;
+            void acelerar() {
+                // comportamento do carro
+            }
+        }
+        
+    </code>
+</pre>
+<p></p>
+    Objeto: Instância de uma classe. Um objeto é criado a partir de uma classe e
+    possui os atributos e métodos definidos pela classe. Exemplo de criação de
+    um objeto: java código
+    <p></p>
+    <pre>
+    <code>
+
+        Carro meuCarro = new Carro();
+        meuCarro.acelerar();
+
+    </code>
+</pre>
+<p></p>
+    3. Encapsulamento, Herança, Polimorfismo Encapsulamento: Restringe o acesso
+    direto aos atributos e permite o controle de como os dados são acessados e
+    modificados por meio de métodos (getters e setters). Exemplo: java 
+    <pre>
+    <code>
+
+        class Pessoa {
+            private String nome;
+            public String getNome() { return nome; }
+            public void setNome(String nome) { this.nome = nome; }
+        }
+
+    </code>
+</pre>
+<p></p>
+    Herança: Permite que uma classe (subclasse) herde características de outra
+    (superclasse), promovendo a reutilização de código. Exemplo: java 
+    código
+    <p></p>
+
+    <pre>
+    <code>
+
+        class Veiculo {
+            int velocidade;
+            void mover() { /* código */ }
+        }
+        class Carro extends Veiculo {
+            int portas;
+        }
+
+    </code>
+</pre>
+<p></p>
+    Polimorfismo: Capacidade de uma classe de fornecer diferentes implementações
+    de um método herdado ou compartilhado. Exemplo: java Copiar código
+    <pre><code>
+
+    class Animal {
+        void som() {
+            System.out.println("Som do animal");
+        }
+    }
+    class Cachorro extends Animal {
+        void som() {
+            System.out.println("Latido");
+        }
+    }
+
+</code></pre>
+<p></p>
+    4. Métodos, Interfaces, e Classes Abstratas Métodos: Definem o comportamento
+    de uma classe. Podem ser sobrescritos (overriding) em subclasses para
+    alterar comportamentos herdados. Interfaces: Definem um contrato que classes
+    devem seguir, sem implementar os métodos. Uma classe pode implementar
+    múltiplas interfaces. Exemplo: java Copiar código
+    <p></p>
+    <pre><code>
+
+    interface Animal {
+        void som();
+    }
+    class Cachorro implements Animal {
+        public void som() {
+            System.out.println("Latido");
+        }
+    }
+
+</code></pre>
+<p></p>
+    Classes Abstratas: Classes que não podem ser instanciadas diretamente.
+    Servem como base para outras classes, podendo ou não ter métodos abstratos
+    (sem implementação). Exemplo: java código
+    <p></p>
+    <pre><code>
+
+    abstract class Forma {
+        abstract void desenhar();
+    }
+    class Circulo extends Forma {
+        void desenhar() { System.out.println("Desenha círculo"); }
+    }
+
+</code></pre>
+<p></p>
+    5. APIs Básicas APIs: Conjunto de métodos e ferramentas que permitem a
+    interação entre softwares ou componentes de software. Em POO, APIs fornecem
+    interfaces para acessar funcionalidades e dados. Exemplos de APIs Java:
+    Collections API: Manipulação de estruturas de dados como listas, mapas e
+    conjuntos. File I/O API: Para leitura e escrita de arquivos. Networking API:
+    Comunicação entre sistemas através de sockets, URLs, e protocolos de rede.
+  </body>
 </html>

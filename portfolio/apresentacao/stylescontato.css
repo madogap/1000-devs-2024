@@ -1,6 +1,4 @@
-
-
-  /* Global Styles */
+/* Global Styles */
 * {
     margin: 0;
     padding: 0;
@@ -8,15 +6,10 @@
   }
   
   body {
-    font-family: 'Roboto', sans-serif;
+    font-family: Arial, sans-serif;
     background-color: #f4f4f4;
     color: #333;
     line-height: 1.6;
-    
-    background-color: #f8f9fa;
-  
-     /* Centraliza a imagem */
-   
   }
   
   .container {
@@ -33,45 +26,32 @@
     padding: 20px 0;
   }
   
-  .nav-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-  }
-  
-  .nav-links {
-    list-style: none;
-  }
-  
-  .nav-links li {
-    display: inline;
-    margin-right: 20px;
-  }
-  
-  .nav-links a {
-    color: #fff;
-    text-decoration: none;
-    font-weight: 700;
-  }
-  
-  .nav-links a:hover {
-    text-decoration: underline;
-  }
-  
-  h1 {
+  header h1 {
     font-size: 2rem;
   }
   
-  .profile-picture {
+  header nav {
     margin-top: 10px;
   }
   
-  .perfil-img {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    object-fit: cover;
+  header ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  header ul li {
+    margin-left: 20px;
+  }
+  
+  header ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  header ul li a:hover {
+    text-decoration: underline;
   }
   
   /* Main Styles */
@@ -79,109 +59,58 @@
     padding: 40px 0;
   }
   
-  #sobre h2, 
-  #tecnologias h2 {
+  h2 {
     font-size: 2rem;
     margin-bottom: 20px;
+    text-align: center;
   }
   
-  .texto p {
-    margin-bottom: 20px;
-    text-align: justify;
+  form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 0 auto;
   }
   
-  /* Carousel Styles */
-  .carousel {
-    margin-top: 40px;
-    overflow: hidden;
+  form label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  form input, form textarea {
     width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
   }
   
-  .carousel-wrapper {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow-x: auto;
-    scroll-behavior: smooth;
+  form input:focus, form textarea:focus {
+    outline: none;
+    border-color: #333;
   }
   
-  .carousel-images {
-    display: flex;
-  }
-  
-  .carousel-images img {
-    width: 150px;
-    height: 150px;
-    margin-right: 10px;
-    border-radius: 10px;
-    object-fit: cover;
-  }
-  
-  /* Footer Styles */
-  footer {
+  button {
+    display: block;
+    width: 100%;
     background-color: #333;
     color: #fff;
-    text-align: center;
-    padding: 20px 0;
-    margin-top: 40px;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    font-size: 1.1rem;
+    cursor: pointer;
   }
   
-  footer p {
-    margin: 0;
+  button:hover {
+    background-color: #555;
   }
   
-  /* Responsive Styles */
-  @media (max-width: 768px) {
-    .nav-container {
-      flex-direction: column;
-      text-align: center;
-    }
-  
-    h1 {
-      margin-bottom: 20px;
-    }
-  
-    .nav-links li {
-      display: block;
-      margin: 10px 0;
-    }
-  
-    .perfil-img {
-      width: 80px;
-      height: 80px;
-    }
-  
-    #sobre h2, 
-    #tecnologias h2 {
-      font-size: 1.5rem;
-    }
-  
-    .carousel-images img {
-      width: 120px;
-      height: 120px;
-    }
-  }
-  
-  @media (max-width: 480px) {
-    .container {
-      width: 95%;
-    }
-  
-    .perfil-img {
-      width: 60px;
-      height: 60px;
-    }
-  
-    h1 {
-      font-size: 1.5rem;
-    }
-  
-    .carousel-images img {
-      width: 100px;
-      height: 100px;
-    }
-  }
-  
+
 /* Footer Styles */
 .container-footer {
     background-color: #0366d6;
@@ -251,6 +180,45 @@
   footer p {
     margin: 0;
   }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    header ul {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    header ul li {
+      margin: 10px 0;
+    }
+  
+    h2 {
+      font-size: 1.5rem;
+    }
+  
+    form {
+      width: 100%;
+    }
+  
+    button {
+      width: 100%;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    h2 {
+      font-size: 1.2rem;
+    }
+  
+    form {
+      padding: 15px;
+    }
+  
+    button {
+      font-size: 1rem;
+    }
+  }
+  
   
   /* Responsive Styles */
   @media (max-width: 768px) {
