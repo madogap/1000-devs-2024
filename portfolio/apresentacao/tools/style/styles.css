@@ -290,3 +290,55 @@
     }
   }
   
+
+  /* Centralizar e limitar a largura da seção */
+#tecnologias {
+  padding: 40px 0;
+}
+
+.container-tecnologias {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.carousel-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Grid layout para as imagens */
+.carousel-images {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 colunas */
+  grid-gap: 20px; /* Espaço entre as imagens */
+  justify-items: center; /* Centralizar cada item dentro do grid */
+}
+
+/* Estilização das imagens */
+.carousel-images img {
+  width: 100%; /* Responsiva */
+  max-width: 200px; /* Tamanho máximo */
+  height: auto;
+  border-radius: 10px; /* Bordas arredondadas (opcional) */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra (opcional) */
+  transition: transform 0.3s ease-in-out; /* Animação ao passar o mouse */
+}
+
+.carousel-images img:hover {
+  transform: scale(1.1); /* Aumenta a imagem ao passar o mouse */
+}
+
+/* Responsividade para telas menores */
+@media (max-width: 768px) {
+  .carousel-images {
+    grid-template-columns: repeat(2, 1fr); /* 2 colunas em tablets */
+  }
+}
+
+@media (max-width: 480px) {
+  .carousel-images {
+    grid-template-columns: 1fr; /* 1 coluna em celulares */
+  }
+}
