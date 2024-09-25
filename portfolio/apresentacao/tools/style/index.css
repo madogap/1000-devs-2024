@@ -5,6 +5,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Montserrat',sans-serif ;
   }
   
   body {
@@ -15,11 +16,15 @@
     
     background-color: #f8f9fa;
   
-     /* Centraliza a imagem */
+   
    
   }
   
   .container {
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 24px;
+    padding-bottom: 24px;
     width: 90%;
     max-width: 1200px;
     margin: 0 auto;
@@ -30,16 +35,23 @@
   header {
     background-color: #0366d6;
     color: #fff;
+    align-items: center;
     padding: 20px 0;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 24px;
+    padding-bottom: 24px;
   }
   
-  .nav-container {
+  .nav-container{
+    
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
+    
   }
-  
+ 
   .nav-links {
     list-style: none;
   }
@@ -61,6 +73,7 @@
   
   h1 {
     font-size: 2rem;
+ 
   }
   
   .profile-picture {
