@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    Aula de resolução de questões!!
+    E retirar dúvidas.
+    Solução Exercício 13: Lista 18-09
+    
+
+    <pre>
+        <code>
+            importar java.util.Scanner;
+
+classe pública App {
+
+    público estático vazio main(String[] args) {
+        Scanner teclado = new Scanner(System.in);
+        int dia, mês, ano;
+        booleano anoEhBissexto;
+
+        System.out.print("Digite o dia do mês: ");
+        dia = teclado.nextInt();
+
+        System.out.print("Digite o mês do ano: ");
+        mes = teclado.nextInt();
+
+        System.out.print("Digite o ano: ");
+        ano = teclado.nextInt();
+
+        anoEhBissexto = (ano % 4 == 0) && ((ano % 100 != 0) || (ano % 400 == 0));
+
+        // se o dia for 29 eo mês de fevereiro e o ano não é bissexto
+        if (dia == 29 && mes == 2 && !anoEhBissexto) {
+            System.out.print("Um dado é invalidado pois o ano não é bissexto.");
+            // o dia e maior que 31
+        } senão se (dia > 31) {
+            System.out.print("Um dado é invalido pois não existe dia maior que 31.");
+            // quando dia e 31 e (o mês de fevereiro ou abril ou junho ou setembro ou
+            // novembro)
+        } else if (dia == 31 && (mes == 2 || mes == 4 || mes == 6 || mes == 9 || mes == 11)) {
+            System.out.print("Um dado é invalido pois não existe 31 no mes + " + mes);
+            // quando o dia for 30 e mês de fevereiro
+        } else if (dia == 30 && mes == 2) {
+            System.out.print("Um dado é invalidado pois não existe 30 de fevereiro.");
+            // se o mes for maior que 12
+        } senão se (mes < 1 || mes > 12) {
+            System.out.print("Um dado é invalidado pois os meses devem ser entre 1 e 12");
+        } outro {
+            System.out.print("O dado é válido!");
+        }
+
+        teclado.close();
+    }
+}
+        </code>
+    </pre>
+
+    Código Inicial Macas x Morango
+    <pre>
+        <code>
+          
+importar java.util.Scanner;
+
+classe pública App {
+    public static void main(String[] args) lança exceção {
+        flutuar precoMais5kgMaca, precoMenos5KgMaca;
+        float precoMais5kgMorango, precoMenos5KgMorango;
+
+        float totalCompra;
+
+        float valorTotalMorango, valorTotalMaca;
+
+        flutuar qtdeMaca;
+        flutuar qtdeMorango;
+
+        Scanner teclado = new Scanner(System.in);
+
+        System.out.print("Informar o peso da Maca em KG: ");
+        qtdeMaca = teclado.nextFloat();
+
+        System.out.print("Informe o peso do Morango em KG: ");
+        qtdeMorango = teclado.nextFloat();
+
+        // estrutura de decisão
+
+        se (qtdeMorango > 5) {
+            // e executado quando qtdeMorange é > 5
+            valorTotalMorango = qtdeMorango * 2.2f;
+        } outro {
+            // e executado quando qtdeMorange não é > 5
+            valorTotalMorango = qtdeMorango * 2.5f;
+        }
+
+        se (qtdeMaca <= 5) {
+            // verdade
+            valorTotalMaca = qtdeMaca * 1,8f;
+        } outro {
+            // falso
+            valorTotalMaca = qtdeMaca * 1,5f;
+        }
+
+        totalCompra = valorTotalMaca + valorTotalMorango;
+        System.out.print("O valor total da compra e R$ " + totalCompra);
+    }
+}
+        </code>
+    </pre>
+
+    
+    <pre>
+        <code>
+
+        </code>
+    </pre>
+    <pre>
+        <code>
+
+        </code>
+    </pre>
+
+</body>
+</html>

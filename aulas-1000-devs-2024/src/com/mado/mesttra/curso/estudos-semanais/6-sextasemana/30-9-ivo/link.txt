@@ -1,0 +1,496 @@
+https://youtu.be/s_qdTIyGVQk
+
+Respostas: Lista Estruturas de Decisão 1
+
+
+Parte 1: https://youtu.be/KyQwtbGtRh8
+
+Parte 2: https://youtu.be/bYWTAmh3BEw
+
+Parte 3: https://youtu.be/f6iUXsUsE4U
+
+Parte 4: https://youtu.be/7cYKvkQu4lU
+
+
+
+//3-Faça um algoritmo para receber um número qualquer e
+//informar na tela se é par ou ímpar.
+
+importar java.util.Scanner;
+
+classe pública App {
+    público estático vazio main(String[] args) {
+        Teclado do scanner;
+        valor int;
+        booleano ehImpar;
+
+        teclado = new Scanner(System.in);
+
+        System.out.print("Digite um valor qualquer: ");
+        valor = teclado.nextInt();
+
+        ehImpar = (valor % 2 != 0);
+
+        se (ehImpar) {
+            System.out.println("O número é impar.");
+        } outro {
+            System.out.println("O número " + valor + "é par.");
+        }
+
+    }
+}
+
+
+importar java.util.Scanner;
+
+classe pública App {
+    público estático vazio main(String[] args) {
+        Teclado do scanner;
+        int um, b;
+        int c;
+
+        teclado = new Scanner(System.in);
+
+        System.out.print("Digite o primeiro valor: ");
+        a = teclado.nextInt();
+
+        System.out.print("Digite o segundo valor: ");
+        b = teclado.nextInt();
+
+        System.out.print("Digite o terceiro valor: ");
+        c = teclado.nextInt();
+
+        se (a + b < c) {
+            System.out.println("A soma de A + B é menor C");
+        } outro {
+            System.out.println("A soma de A + B não é menor C");
+        }
+
+    }
+}
+
+
+//3-Faça um algoritmo para receber um número qualquer e
+//informar na tela se é par ou ímpar.
+importar java.util.Scanner;
+
+classe pública App {
+    público estático vazio main(String[] args) {
+        Teclado do scanner;
+        valor int;
+        booleano ehImpar;
+
+        teclado = new Scanner(System.in);
+
+        System.out.print("Digite um valor qualquer: ");
+        valor = teclado.nextInt();
+
+        ehImpar = (valor % 2 != 0);
+
+        se (ehImpar) {
+            System.out.println("O número é impar.");
+        } outro {
+            System.out.println("O número " + valor + "é par.");
+        }
+
+    }
+}
+
+
+
+//7-Faça um algoritmo que leia uma variável e some 5
+//caso seja par ou some 8 caso seja ímpar,
+//imprimir o resultado desta operação.
+importar java.util.Scanner;
+
+classe pública App {
+    público estático vazio main(String[] args) {
+        Teclado do scanner;
+        int valor, resultado;
+        booleano ehImpar;
+
+        teclado = new Scanner(System.in);
+
+        System.out.print("Digite um valor qualquer: ");
+        valor = teclado.nextInt();
+
+        ehImpar = (valor % 2 != 0);
+
+        se (ehImpar) {
+            resultado = valor + 8;
+        } outro {
+            resultado = valor + 5;
+        }
+
+        System.out.println("Resultado: " + resultado);
+
+    }
+}
+
+
+
+//5-Encontrar o dobro de um número caso ele seja positivo
+//eo seu triplo caso seja negativo, imprimindo o resultado.
+
+importar java.util.Scanner;
+
+classe pública App {
+    público estático vazio main(String[] args) {
+        Teclado do scanner;
+        int valor, resultado = 0;
+
+        teclado = new Scanner(System.in);
+
+        System.out.print("Digite um valor qualquer: ");
+        valor = teclado.nextInt();
+
+        // negativo
+        se (valor < 0) {
+            resultado = valor * 3;
+            // positivo
+        } senão se (valor > 0) {
+            resultado = valor * 2;
+        }
+
+        se (resultado != 0) {
+            System.out.println("Resultado: " + resultado);
+        }
+
+    }
+}
+
+
+
+//4-Faça um algoritmo que leia dois valores inteiros A e B se os
+//valores são iguais devem se somar os dois, caso contrário
+//multiplique A por B. Ao final de qualquer um dos cálculos
+//deve-se esperar o resultado para uma variável C e mostrar
+//seu conteúdo na tela.
+
+importar java.util.Scanner;
+
+classe pública App {
+    público estático vazio main(String[] args) {
+        Teclado do scanner;
+        int a, b, c;
+
+        teclado = new Scanner(System.in);
+
+        System.out.print("Dígito ou valor de A: ");
+        a = teclado.nextInt();
+
+        System.out.print("Dígito ou valor de B: ");
+        b = teclado.nextInt();
+
+        se (a == b) {
+            c = (a + b);
+        } outro {
+            c = (a * b);
+        }
+
+        System.out.println("O valor de C é: " + c);
+    }
+}
+
+
+
+//10-O IMC – Índice de Massa Corporal é um ranking da Organização Mundial de Saúde para dar
+//uma indicação sobre a condição de peso de uma pessoa adulta. A fórmula é IMC = peso / ( altura )2
+
+//Elabore um algoritmo que leia o peso e a altura de um adulto e mostre sua condição de acordo
+//com a tabela abaixo.
+//IMC em adultos Condição
+//Abaixo de 18,5 Abaixo do peso
+//Entre 18,5 e 25 Peso normal
+//Entre 25 e 30 Acima do peso
+//Ácido de 30 obeso
+
+importar java.util.Scanner;
+
+classe pública App {
+
+    público estático vazio main(String[] args) {
+        Scanner teclado = new Scanner(System.in);
+
+        flutuar peso, altura;
+        flutuar imc;
+
+        System.out.print("Digite a altura em metros: ");
+        altura = teclado.nextFloat();
+
+        System.out.print("Dígito o peso em kg: ");
+        peso = teclado.nextFloat();
+
+        imc = peso / (altura * altura);
+
+        // Acima de 30 obesos
+        se (imc >= 30) {
+            System.out.printf("Seu IMC %.2f lhe classifica como obesidade.", imc);
+            // Entre 25 e 30 Acima do peso
+        } senão se (imc >= 25) {
+            System.out.printf("Seu IMC %.2f classifica como acima do peso.", imc);
+            // Entre 18,5 e 25 Pesos normais
+        } senão se (imc >= 18.5f) {
+            System.out.printf("Seu IMC %.2f classifica como peso normal.", imc);
+            // Abaixo de 18,5 Abaixo do peso
+        } outro {
+            System.out.printf("Seu IMC %.2f classifica abaixo do peso normal.", imc);
+        }
+
+        teclado.close();
+    }
+}
+
+
+
+//11-Elaborar um algoritmo que calcule o que deve ser pago por um produto, considerando o preço
+//normal de etiqueta e escolha da condição de pagamento. Utilize os códigos da tabela a seguir
+//para ler qual a condição de pagamento escolhida e efetuar o cálculo adequado.
+
+//Código Condição de pagamento
+//1 À vista em dinheiro ou cheque, recebe 10% de desconto
+//2 À vista no cartão de crédito, recebe 15% de desconto
+//3 Em duas vezes, preço normal de etiqueta sem juros
+//4 Em duas vezes, preço normal de etiqueta mais juros de 10%
+
+importar java.util.Scanner;
+
+classe pública App {
+
+    público estático vazio main(String[] args) {
+        Scanner teclado = new Scanner(System.in);
+        float totalCompra;
+        float valorFinalCompra;
+
+        int opçãoPagamento;
+
+        System.out.print("Dígito do valor total da compra: R$ ");
+        totalCompra = teclado.nextFloat();
+
+        System.out.println("\nCódigo Descrição");
+        System.out.println("1 À vista em dinheiro ou cheque, recebe 10% de desconto");
+        System.out.println("2 À vista no cartão de crédito, recebe 15% de desconto");
+        System.out.println("3 Em duas vezes, preço normal de etiqueta sem juros");
+        System.out.println("4 Em três vezes, preço normal de etiqueta mais juros de 10%");
+        Sistema.out.println("");
+        System.out.print("Digite a opção de pagamento: ");
+
+        opcaoPagamento = teclado.nextInt();
+
+        System.out.println("Valor da compra: R$ " + totalCompra);
+
+        se (opcaoPagamento == 1) {
+            System.out.print("Valor à vista com 10% de desconto: R$ ");
+            valorFinalCompra = totalCompra * 0.9f;
+        } senão if (opcaoPagamento == 2) {
+            System.out.print("Valor à vista no cartão de crédito com 15% de desconto: R$ ");
+            valorFinalCompra = totalCompra * 0,85f;
+        } else if (opcaoPagamento == 3) {
+            System.out.print("Em 2x sem juros: R$ ");
+            valorFinalCompra = totalCompra;
+        } outro {
+            System.out.print("Em 3x com 10% de juros: R$ ");
+            valorFinalCompra = totalCompra * 1.1f;
+        }
+
+        System.out.println(valorFinalCompra);
+
+        teclado.close();
+    }
+}
+
+
+
+//9-Tendo como dados de entrada a altura e o sexo de uma pessoa, construa um algoritmo que
+//calcula seu peso ideal, utilizando as seguintes fórmulas:
+// para homens: (72,7*h) – 58;
+// para mulheres: (62,1*h) – 44,7
+
+importar java.util.Scanner;
+
+classe pública App {
+
+    público estático vazio main(String[] args) {
+        Scanner teclado = new Scanner(System.in);
+
+        flutuar altura;
+        sexo int;
+
+        System.out.print("Digite a sua altura em mts: ");
+        altura = teclado.nextFloat();
+
+        System.out.println("\nDígito 1 para masculino. ");
+        System.out.println("Digite 2 para feminino. ");
+
+        System.out.print("\nDigite seu sexo: ");
+        sexo = teclado.nextInt();
+
+        se (sexo == 1) {
+            System.out.printf("Seu peso ideal: %.2f kgs", ((72,7 * altura) - 58));
+        } outro {
+            System.out.printf("Seu peso ideal: %.2f kgs", ((62,1 * altura) - 44,7));
+        }
+
+        teclado.close();
+    }
+}
+
+//12) Escreva um algoritmo que leia o número de identificação, as 3 notas obtidas por um aluno nas
+//3 verificações e a média dos exercícios que fazem parte da avaliação, e calcular a média de
+//aproveitamento, usando a fórmula:
+//MA := (((nota1 + nota2) * 2) + (nota3 * 3) + ME)/7
+//A atribuição dos conceitos obedece à tabela abaixo. O algoritmo deve escrever o número do aluno,
+//suas notas, a média dos exercícios, a média de aproveitamento, o conceito correspondente e a
+//mensagem 'Aprovado' se o conceito para A, B ou C, e 'Reprovado' se o conceito para D ou E.
+//Média de aproveitamento Conceito
+//>= 90 UMA
+//>= 75 e < 90 B
+//>= 60 e < 75 C
+//>= 40 e < 60 D
+//< 40 E
+
+importar java.util.Scanner;
+
+classe pública App {
+    public static void main(String[] args) lança exceção {
+        Scanner teclado = new Scanner(System.in);
+
+        float prova1, prova2, prova3, trabalho;
+        flutuar notaFinal;
+
+        System.out.print("Digite o valor da prova 1: ");
+        prova1 = teclado.nextFloat();
+
+        System.out.print("Digite o valor da prova 2: ");
+        prova2 = teclado.nextFloat();
+
+        System.out.print("Digite o valor da prova 3: ");
+        prova3 = teclado.nextFloat();
+
+        System.out.print("Digite o valor do trabalho: ");
+        trabalho = teclado.nextFloat();
+
+        notaFinal = (((prova1 + prova2) * 2) + (prova3 * 3) + trabalho) / 7;
+
+        se (notaFinal >= 90) {
+            System.out.println("Conceito A.");
+        } senão se (notaFinal >= 75) {
+            System.out.println("Conceito B.");
+        } senão se (notaFinal >= 60) {
+            System.out.println("Conceito C.");
+        } senão se (notaFinal >= 40) {
+            System.out.println("Conceito D.");
+        } outro {
+            System.out.println("Conceito E.");
+        }
+
+        teclado.close();
+
+    }
+}
+
+//6-Escreva um algoritmo que lê dois valores booleanos (lógicos)
+//e então determina se ambos são VERDADEIROS ou FALSOS.
+importar java.util.Scanner;
+
+classe pública App {
+    public static void main(String[] args) lança exceção {
+        Scanner teclado = new Scanner(System.in);
+        booleano a, b;
+
+        System.out.print("Digite o primeiro valor booleano: ");
+        a = teclado.nextBoolean();
+
+        System.out.print("Digite o segundo valor booleano: ");
+        b = teclado.nextBoolean();
+
+        se (a == b) {
+            System.out.println("Valores iguais.");
+        } outro {
+            System.out.println("Valores diferentes.");
+        }
+        teclado.close();
+
+    }
+}
+
+importar java.util.Scanner;
+
+//8-Escreva um algoritmo que leia três valores inteiros e
+//diferentes e mostre-os em ordem decrescente.
+classe pública App {
+    public static void main(String[] args) lança exceção {
+        Scanner scanner = novo Scanner(System.in);
+        int a, b, c, temperatura;
+
+        // Lendo os três valores
+        System.out.print("Digite o primeiro valor: ");
+        a = scanner.nextInt();
+
+        System.out.print("Digite o segundo valor: ");
+        b = scanner.nextInt();
+
+        System.out.print("Digite o terceiro valor: ");
+        c = scanner.nextInt();
+
+        se (a < b) {
+            temperatura = a;
+            um = b;
+            b = temperatura;
+        }
+
+        se (a < c) {
+            temperatura = a;
+            um = c;
+            c = temperatura;
+        }
+
+        se (b < c) {
+            temperatura = b;
+            b = c;
+            c = temperatura;
+        }
+
+        System.out.println("Ordem decrescente: " + a + " " + b + " " + c);
+
+        scanner.fechar();
+
+    }
+}
+importar java.util.Scanner;
+
+//8-Escreva um algoritmo que leia três valores inteiros e
+//diferentes e mostre-os em ordem decrescente.
+classe pública App {
+    public static void main(String[] args) lança exceção {
+        Scanner scanner = novo Scanner(System.in);
+        int a, b, c;
+
+        // Lendo os três valores
+        System.out.print("Digite o primeiro valor: ");
+        a = scanner.nextInt();
+
+        System.out.print("Digite o segundo valor: ");
+        b = scanner.nextInt();
+
+        System.out.print("Digite o terceiro valor: ");
+        c = scanner.nextInt();
+
+        se (a > b && a > c && b > c) {
+            System.out.println("\nOrdem decrescente: " + a + " " + b + " " + c);
+        } senão se (a > b && a > c && c > b) {
+            System.out.println("\nOrdem decrescente: " + a + " " + c + " " + b);
+        } senão se (b > a && b > c && a > c) {
+            System.out.println("\nOrdem decrescente: " + b + " " + a + " " + c);
+        } senão se (b > a && b > c && c > a) {
+            System.out.println("\nOrdem decrescente: " + b + " " + c + " " + a);
+        } senão se (c > a && c > b && a > b) {
+            System.out.println("\nOrdem decrescente: " + c + " " + a + " " + b);
+        } senão se (c > a && c > b && b > a) {
+            System.out.println("\nOrdem decrescente: " + c + " " + b + " " + a);
+        }
+
+        scanner.fechar();
+
+    }
+}
